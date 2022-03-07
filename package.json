@@ -2,7 +2,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "mongoose": "^6.2.4",
-    "nodemon":"ˆ2.0.15"
+    "nodemon": "^2.0.15"
   },
   "name": "emoji-meals-backend",
   "version": "1.0.0",
