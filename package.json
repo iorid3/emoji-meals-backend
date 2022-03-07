@@ -4,28 +4,30 @@
     "mongoose": "^6.2.4",
     "nodemon": "^2.0.15"
   },
-  "name": "emoji-meals-backend",
+  "name": "moji-meals-backend",
   "version": "1.0.0",
+  "description": "backend for moji-meals app",
   "main": "index.js",
   "scripts": {
-    "start":"Node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iorid3/emoji-meals-backend.git"
   },
-"keywords": [
-  "example",
-  "heroku"
-],
-  "author": "Iori",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Jeremy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iorid3/emoji-meals-backend/issues"
   },
   "homepage": "https://github.com/iorid3/emoji-meals-backend#readme",
-  "engines":{
-    "node":"16.x"
-  }
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {}
 }
