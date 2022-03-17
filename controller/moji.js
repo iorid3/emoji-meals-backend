@@ -15,8 +15,6 @@ const getRecipe=(req,res)=>{
   recipes.findOne({title:recipe},(err,data)=>{
       if(err) return res.json(err)
       res.json(data)
-     
-
   })
 }
 
