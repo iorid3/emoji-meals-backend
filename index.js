@@ -35,6 +35,6 @@ app.use(function (req, res, next) {
 
 
 app.use(recepieRouter)
-app.listen(process.env.PORT || 3001, () => {
-  console.log('serving running on 3001')
+app.listen(process.env.PORT || 3002, () => {
+  console.log('serving running on 3002')
 })
